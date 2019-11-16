@@ -6,7 +6,7 @@
 header{
     width: 100vw;
     height: 9%;
-    background-color: rgb(134, 230, 193);
+    background-color: #563d7c;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -19,7 +19,7 @@ header{
 #logo{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
-    color: rgb(202, 98, 197);
+    color: rgb(238, 214, 236);
     font-weight: bolder;
 }
 
