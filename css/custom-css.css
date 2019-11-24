@@ -5,7 +5,7 @@
 
 header{
     width: 100vw;
-    background-color: #563d7c;
+    background-color: #217c92;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -13,16 +13,16 @@ header{
 
 #nav-bar{
     font-weight: bold;
-    background-color: #563d7c;
+    background-color: #217c92;
     color: rgb(238, 214, 236);
-    width: 100vw;
+    width: 100%;
+    text-align: center;
 }
 
 #logo{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
-    color: rgb(238, 214, 236);
-    font-weight: bolder;
+    color: rgb(213, 219, 233);
 }
 
 #social{
@@ -41,7 +41,7 @@ header{
 
 footer{
     width: 100vw;
-    background-color: darkblue;
+    background-color: #217c92;
 }
 
 .dl-fill-all{
