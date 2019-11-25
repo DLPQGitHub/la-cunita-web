@@ -1,10 +1,12 @@
-#base{
+html, body{
     padding: 0%;
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     background-color: #217c92;
     margin: 0;
     padding-left: 0;
@@ -35,8 +37,8 @@ header{
     color: rgba(233, 233, 233, 0.925);
 }
 
-#content{
-    background-color: darkcyan;
+#carouselExampleCaptions{
+    max-height: 25%;
 }
 
 footer{
