@@ -37,8 +37,22 @@ header{
     color: rgba(233, 233, 233, 0.925);
 }
 
-#carouselExampleCaptions{
-    max-height: 25%;
+#body{
+    width: 100vw;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#carousel{
+    height: 30%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-carousel{
+    min-width: 100vw;
 }
 
 footer{
