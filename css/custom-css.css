@@ -51,9 +51,14 @@ header{
     padding-right: 0;
 }
 
-.image-carousel{
-    min-width: 100vw;
+.section-titles{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: #217c92;
+    padding-top: 1%;
 }
+
+
 
 footer{
     width: 100vw;
