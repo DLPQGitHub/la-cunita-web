@@ -58,6 +58,15 @@ header{
     padding-top: 1%;
 }
 
+.productos-container{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.productos-images{
+    max-height: 480px;
+}
 
 
 footer{
