@@ -58,6 +58,17 @@ header{
     padding-top: 1%;
 }
 
+.section-dark{
+    background-color: #217c92;
+}
+
+.section-titles-light{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: whitesmoke;
+    padding-top: 1%;
+}
+
 .productos-container{
     margin: 0;
     padding-left: 0;
