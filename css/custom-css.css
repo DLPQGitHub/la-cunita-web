@@ -79,6 +79,12 @@ header{
     max-height: 480px;
 }
 
+.elegirnos-section{
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    text-align: justify;
+}
+
 
 footer{
     width: 100vw;
