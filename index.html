@@ -12,7 +12,8 @@
 
 <body>
 
-    <header id="header-container" class="container-fluid">
+    <header id="header-container" class="container-fluid row">
+        <div class="col">
         <div class="row">
             <div class="col-12">
                 <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark">
@@ -36,7 +37,7 @@
                                 <a class="nav-link" href="#elegirnos-container">¿Por qué elegirnos?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#productos-container">Promociones</a>
+                                <a class="nav-link" href="#promo-container">Promociones</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Nuestra ubicación</a>
@@ -49,12 +50,14 @@
                 </nav>
             </div>
         </div>
+    </div>
     </header>
 
     <div id="body" class="container-fluid">
 
-        <section id="carousel" class="container-fluid">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <section id="carousel" class="container-fluid row">
+            <div class="col">
+            <div id="carouselItemsFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/pies_arena2.jpg" class="d-block w-100" alt="...">
@@ -70,113 +73,141 @@
                         <img src="./images/bailarina2.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselItemsFade" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselItemsFade" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
         </section>
 
-        <section id="productos-container" class="container-fluid">
-            <div class="row section-titles">
-                <div class="col-12">
-                    <h2>Nuestros productos</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card">
-                        <img src="./images/camacuna.jpg" class="card-img-top productos-images" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Camacunas</h5>
-                            <p class="card-text">
-                                Si piensas a largo plazo, las camacunas permiten que tu hijo duerma desde que nace hasta
-                                que sea mayor, una vez le desmontas el corral,
-                                tiene las medidas de una cama sencilla de adulto.
-                            </p>
-                            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./images/cuna.jpg" class="card-img-top productos-images" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Cunas</h5>
-                            <p class="card-text">
-                                El lugar predilecto para un bebé, ocupa menos espacio, con la posibilidad de barandillas
-                                y altura del colchón regulables.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./images/mecedora.jpg" class="card-img-top productos-images" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Cajoneros y otros muebles</h5>
-                            <p class="card-text">
-                                Cajoneros, mesas de noche, repizas, sillas y más, todos los elementos que complementan
-                                la
-                                habitiación de tu hijo.
-                            </p>
-                        </div>
+        <section id="productos-container" class="container-fluid row">
+            <div class="col">
+                <div class="row section-titles">
+                    <div class="col-12">
+                        <h2>Nuestros productos</h2>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="elegirnos-container" class="container-fluid section-dark">
-            <div class="row section-titles-light">
-                <div class="col-12">
-                    <h2>¿Por qué elegirnos?</h2>
-                </div>
-                <div class="row elegirnos-section">
-                    <div class="col-1"></div>
-                    <div class="col">
-                        <ul class="list-unstyled">
-                            <li class="media">
-                                <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
-                                <div class="media-body">
-                                    Más de treinta años de experiencia en el sector nos avalan como una elección
-                                    confiable.
-                                </div>
-                            </li>
-                            <li class="media my-4">
-                                <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
-                                <div class="media-body">
-                                    Nuestros productos tienen la máxima calidad, pero en caso de que la necesites
-                                    cuentas con garantía sobre cualquier posible defecto de fabricación.
-                                </div>
-                            </li>
-                            <li class="media">
-                                <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
-                                <div class="media-body">
-                                    Diseño que mezcla elegancia y comodidad.
-                                </div>
-                            </li>
-                        </ul>
+                <div class="row" style="padding-bottom: 1%;">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="./images/camacuna.jpg" class="card-img-top productos-images" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Camacunas</h5>
+                                <p class="card-text">
+                                    Si piensas a largo plazo, las camacunas permiten que tu hijo duerma desde que nace
+                                    hasta
+                                    que sea mayor, una vez le desmontas el corral,
+                                    tiene las medidas de una cama sencilla de adulto.
+                                </p>
+                                <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/cuna.jpg" class="card-img-top productos-images" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cunas</h5>
+                                <p class="card-text">
+                                    El lugar predilecto para un bebé, ocupa menos espacio, con la posibilidad de
+                                    barandillas
+                                    y altura del colchón regulables.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/mecedora.jpg" class="card-img-top productos-images" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cajoneros y otros muebles</h5>
+                                <p class="card-text">
+                                    Cajoneros, mesas de noche, repizas, sillas y más, todos los elementos que
+                                    complementan
+                                    la
+                                    habitiación de tu hijo.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-1"></div>
                 </div>
             </div>
         </section>
 
-        <section id="promo-container" class="container-fluid">
-            <div class="row section-titles">
-                <div class="col-12">
-                    <h2>Promociones</h2>
+        <section id="elegirnos-container" class="container-fluid section-dark row">
+            <div class="col">
+                <div class="row section-titles-light">
+                    <div class="col-12">
+                        <h2>¿Por qué elegirnos?</h2>
+                    </div>
+                    <div class="row elegirnos-section">
+                        <div class="col-1"></div>
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
+                                    <div class="media-body">
+                                        Más de treinta años de experiencia en el sector nos avalan como una elección
+                                        confiable.
+                                    </div>
+                                </li>
+                                <li class="media my-3">
+                                    <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
+                                    <div class="media-body">
+                                        Nuestros productos tienen la máxima calidad, pero en caso de que la necesites,
+                                        cuentas con garantía sobre cualquier posible defecto de fabricación.
+                                    </div>
+                                </li>
+                                <li class="media my-3">
+                                    <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
+                                    <div class="media-body">
+                                        Diseño que mezcla elegancia y comodidad.
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <img src="./images/bear1.jpg" class="mr-3" alt="..." style="border-radius: 50%;">
+                                    <div class="media-body">
+                                        Si lo deseas, te enviamos y dejamos instalados tus muebles.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="card-deck">
-                    <img src="./images/mecedora.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nuevo sitio web</h5>
-                        <p class="card-text">
-                            Desde el primero de enero hasta el primero de febrero obtén un 5% de descuento sobre el
-                            precio de venta.
-                        </p>
+        </section>
+
+        <section id="promo-container" class="container-fluid row">
+
+            <div class="col">
+                <div class="row section-titles">
+                    <div class="col-12">
+                        <h2>Promociones</h2>
+                    </div>
+                </div>
+                <div class="card-columns">
+
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Visítanos</h5>
+                            <p class="card-text">Aquí encontrarás nuestras ofertas, en este momento no tenemos ninguna
+                            </p>
+                            <p class="card-text"><small class="text-muted">Vigente</small></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="ubicación-container" class="container-fluid section-dark row">
+
+            <div class="col">
+                <div class="row section-titles-light">
+                    <div class="col-12">
+                        <h2>Nuestra ubicación</h2>
                     </div>
                 </div>
             </div>
