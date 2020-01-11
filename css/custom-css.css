@@ -1,54 +1,37 @@
-html, body{
-    padding: 0%;
+html {
+    width: 100%;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
-    height: 100vh;
+    background-color: green;
 }
 
-header{
-    width: 100%;
+body {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: red;
+}
+
+header, footer{
+    min-width: 100%;
     background-color: #217c92;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
+}
+
+main{
+    width: 100%;
+    background-color: whitesmoke;
 }
 
 #nav-bar{
     font-weight: bold;
-    background-color: #217c92;
     color: rgb(238, 214, 236);
     width: 100%;
     text-align: center;
 }
 
-#logo{
+.logo{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
     color: rgb(213, 219, 233);
-}
-
-#social{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(59,89,152);
-}
-
-#fb-logo:hover{
-    color: rgba(233, 233, 233, 0.925);
-}
-
-#body{
-    width: 100vw;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#carousel{
-    height: 30%;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .section-titles{
@@ -69,7 +52,7 @@ header{
     padding-top: 1%;
 }
 
-.productos-container, .promo-container, .carouselItemsFade{
+.productos-container, .promo-container, .carouselInnerItems{
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -85,10 +68,14 @@ header{
     text-align: justify;
 }
 
+#social{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(59,89,152);
+}
 
-footer{
-    width: 100vw;
-    background-color: #217c92;
+#fb-logo:hover{
+    color: rgba(233, 233, 233, 0.925);
 }
 
 .dl-fill-all{
