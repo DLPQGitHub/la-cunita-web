@@ -68,6 +68,10 @@ main{
     text-align: justify;
 }
 
+.map{
+    min-height: 450px;
+}
+
 #social{
     text-align: center;
     font-size: x-large;
