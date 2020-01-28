@@ -58,6 +58,7 @@ main{
     padding-right: 0;
     width: 100%;
 }
+
 .productos-images{
     max-height: 456px;
 }
@@ -87,6 +88,28 @@ main{
     height: 100vh;
     margin: 0;
     background-color: whitesmoke;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-titles{
+        font-size: 20rem;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+    main{
+        width: 100%;
+    }
+
+} 
+
+@media only screen and (min-width: 1200px) {
+    #carousel-item{
+        max-height: 690px !important;
+    }
 }
 
 
