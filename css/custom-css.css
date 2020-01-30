@@ -73,6 +73,10 @@ main{
     min-height: 450px;
 }
 
+.contacto-container{
+    text-align: center;
+}
+
 #social{
     text-align: center;
     font-size: x-large;
