@@ -77,10 +77,12 @@ main{
     text-align: center;
 }
 
-#social{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(59,89,152);
+#container-footer{
+    min-height: 2rem;
+}
+
+#contactos-icons{
+    font-size: xx-large;
 }
 
 #fb-logo:hover{
@@ -94,26 +96,6 @@ main{
     background-color: whitesmoke;
 }
 
-@media only screen and (min-width: 768px) {
 
-    .section-titles{
-        font-size: 20rem;
-    }
-    
-}
-
-@media only screen and (max-width: 767px) {
-    
-    main{
-        width: 100%;
-    }
-
-} 
-
-@media only screen and (min-width: 1200px) {
-    #carousel-item{
-        max-height: 690px !important;
-    }
-}
 
 
