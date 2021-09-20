@@ -69,6 +69,12 @@ main{
     text-align: justify;
 }
 
+.elegirnos-item{
+    background-color: #217c92;
+    border: 0px;
+    color: whitesmoke;
+}
+
 .map{
     min-height: 450px;
 }
